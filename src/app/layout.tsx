@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { HkmProBanner } from "./HkmPro";
 
@@ -85,6 +85,7 @@ export default function RootLayout({
         />
         {children}
         <HkmProBanner />
+              <script src="https://hikakinmaniacoin.hikamer.f5.si/ad.js" async></script>
       </body>
     </html>
   );
