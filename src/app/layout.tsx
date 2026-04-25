@@ -1,6 +1,5 @@
 ﻿import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { HkmProBanner } from "./HkmPro";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -84,8 +83,6 @@ export default function RootLayout({
           defer
         />
         {children}
-        <HkmProBanner />
-              <script src="https://hikakinmaniacoin.hikamer.f5.si/ad.js" data-user-id="cmo8lk1kj0000aggyuhzgv5vk" async></script>
       </body>
     </html>
   );
