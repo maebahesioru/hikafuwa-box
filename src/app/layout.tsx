@@ -8,6 +8,7 @@ export const viewport: Viewport = {
   themeColor: "#ff00cc",
 };
 
+// rebuild trigger
 export const metadata: Metadata = {
   metadataBase: new URL('https://hikafuwa-box.hikamer.f5.si'),
   title: "HIKAFUWA BOX | だれでもネタツイクリエイター",
