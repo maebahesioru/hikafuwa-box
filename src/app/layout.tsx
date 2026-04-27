@@ -9,7 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hikafuwa-box.vercel.app'),
+  metadataBase: new URL('https://hikafuwa-box.hikamer.f5.si'),
   title: "HIKAFUWA BOX | だれでもネタツイクリエイター",
   description: "画像をアップロードするだけでAIが爆笑ネタツイートを自動作成！ヒカキン風、シュール、ボケてなど、あなたの画像でバズるツイートを生み出します。",
   keywords: ["ネタツイ", "AI", "大喜利", "画像生成", "Twitter", "X", "HIKAFUWA", "ヒカフワ"],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "だれでもネタツイクリエイター！HIKAFUWA BOX",
     description: "画像をアップロードするだけでAIが爆笑ネタツイートを自動作成！",
-    url: "https://hikafuwa-box.vercel.app", // 実際のデプロイURLに合わせて変更してください
+    url: "https://hikafuwa-box.hikamer.f5.si",
     siteName: "HIKAFUWA BOX",
     images: [
       {
