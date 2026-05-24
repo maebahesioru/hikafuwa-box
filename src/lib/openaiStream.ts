@@ -3,7 +3,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY || ''
 
 // モデルを順番に試す（新しいフォルダーと同じ方式）
 export const OPENAI_MODELS = [
-  'AnthropicClaude47Opus',
+  'GeminiPro31Preview',
 ]
 
 export async function callOpenAIStream(
